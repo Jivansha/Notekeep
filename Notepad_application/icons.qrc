@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/crop.png</file>
+        <file>icons/directory_folder.png</file>
+        <file>icons/document_new.png</file>
+        <file>icons/document_open.png</file>
+        <file>icons/document_save.png</file>
+        <file>icons/document_save_as.png</file>
+        <file>icons/edit_cut.png</file>
+        <file>icons/edit_paste.png</file>
+        <file>icons/edit_redo.png</file>
+        <file>icons/edit_undo.png</file>
+        <file>icons/folder_new.png</file>
+        <file>icons/format_text_bold.png</file>
+        <file>icons/format_text_italic.png</file>
+        <file>icons/format_text_underline.png</file>
+        <file>icons/process_stop.png</file>
+        <file>icons/copy_icon.jpg</file>
+        <file>icons/edit_delete.png</file>
+        <file>icons/image_icon.png</file>
+        <file>icons/help.png</file>
+    </qresource>
+</RCC>
