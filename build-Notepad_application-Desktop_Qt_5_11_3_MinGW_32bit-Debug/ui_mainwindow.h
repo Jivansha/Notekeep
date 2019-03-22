@@ -38,6 +38,7 @@ public:
     QAction *actionUndo;
     QAction *actionAbout_Notepad;
     QAction *actionExit_2;
+    QAction *actionLicense;
     QWidget *centralWidget;
     QVBoxLayout *verticalLayout_2;
     QScrollArea *scrollArea;
@@ -116,6 +117,11 @@ public:
         QIcon icon10;
         icon10.addFile(QStringLiteral(":/icons/icons/process_stop.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionExit_2->setIcon(icon10);
+        actionLicense = new QAction(MainWindow);
+        actionLicense->setObjectName(QStringLiteral("actionLicense"));
+        QIcon icon11;
+        icon11.addFile(QStringLiteral(":/icons/icons/user_icon_gotee.png"), QSize(), QIcon::Normal, QIcon::Off);
+        actionLicense->setIcon(icon11);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         verticalLayout_2 = new QVBoxLayout(centralWidget);
@@ -183,6 +189,7 @@ public:
         menuEdit->addAction(actionRedo);
         menuEdit->addAction(actionUndo);
         menuHelp->addAction(actionAbout_Notepad);
+        menuHelp->addAction(actionLicense);
         mainToolBar->addAction(actionNew);
         mainToolBar->addAction(actionOpen);
         mainToolBar->addAction(actionSave);
@@ -214,6 +221,7 @@ public:
         actionUndo->setText(QApplication::translate("MainWindow", "Undo", nullptr));
         actionAbout_Notepad->setText(QApplication::translate("MainWindow", "About Notepad", nullptr));
         actionExit_2->setText(QApplication::translate("MainWindow", "Exit", nullptr));
+        actionLicense->setText(QApplication::translate("MainWindow", "License", nullptr));
         menuFile->setTitle(QApplication::translate("MainWindow", "File", nullptr));
         menuEdit->setTitle(QApplication::translate("MainWindow", "Edit", nullptr));
         menuHelp->setTitle(QApplication::translate("MainWindow", "Help", nullptr));
