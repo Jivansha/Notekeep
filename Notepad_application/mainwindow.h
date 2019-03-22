@@ -38,6 +38,10 @@ private slots:
 
     void on_actionExit_2_triggered();
 
+    void on_actionLicence_triggered();
+
+    void on_actionLicense_triggered();
+
 private:
     Ui::MainWindow *ui;
     QString file_path;

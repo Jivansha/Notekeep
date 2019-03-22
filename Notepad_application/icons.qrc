@@ -19,5 +19,6 @@
         <file>icons/edit_delete.png</file>
         <file>icons/image_icon.png</file>
         <file>icons/help.png</file>
+        <file>icons/user_icon_gotee.png</file>
     </qresource>
 </RCC>

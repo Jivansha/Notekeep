@@ -95,6 +95,7 @@
      <string>Help</string>
     </property>
     <addaction name="actionAbout_Notepad"/>
+    <addaction name="actionLicense"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -217,6 +218,15 @@
    </property>
    <property name="text">
     <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionLicense">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/user_icon_gotee.png</normaloff>:/icons/icons/user_icon_gotee.png</iconset>
+   </property>
+   <property name="text">
+    <string>License</string>
    </property>
   </action>
  </widget>
